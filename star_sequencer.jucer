@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="HX8AHT" name="star_sequencer" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              splashScreenColour="Dark">
+  <MAINGROUP id="fu6v4t" name="star_sequencer">
+    <GROUP id="{EF3B6E68-C1C6-1778-6F46-32AB528A9114}" name="Source">
+      <GROUP id="{43EF7C6B-C825-2CA0-C289-42A06636C9AF}" name="glm">
+        <GROUP id="{F47D6844-8F23-4A41-942E-9E507C1762E9}" name="detail">
+          <FILE id="I9O3a7" name="_features.hpp" compile="0" resource="0" file="Source/glm/detail/_features.hpp"/>
+          <FILE id="Wcu8te" name="_fixes.hpp" compile="0" resource="0" file="Source/glm/detail/_fixes.hpp"/>
+          <FILE id="X3Pr4u" name="_noise.hpp" compile="0" resource="0" file="Source/glm/detail/_noise.hpp"/>
+          <FILE id="omiY40" name="_swizzle.hpp" compile="0" resource="0" file="Source/glm/detail/_swizzle.hpp"/>
+          <FILE id="i78jaY" name="_swizzle_func.hpp" compile="0" resource="0"
+                file="Source/glm/detail/_swizzle_func.hpp"/>
+          <FILE id="MKpUBg" name="_vectorize.hpp" compile="0" resource="0" file="Source/glm/detail/_vectorize.hpp"/>
+          <FILE id="jmcjJA" name="compute_common.hpp" compile="0" resource="0"
+                file="Source/glm/detail/compute_common.hpp"/>
+          <FILE id="YJDbry" name="compute_vector_relational.hpp" compile="0"
+                resource="0" file="Source/glm/detail/compute_vector_relational.hpp"/>
+          <FILE id="kuA9A0" name="func_common.inl" compile="0" resource="0" file="Source/glm/detail/func_common.inl"/>
+          <FILE id="bdrBsf" name="func_common_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_common_simd.inl"/>
+          <FILE id="skIWtm" name="func_exponential.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_exponential.inl"/>
+          <FILE id="SszmzH" name="func_exponential_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_exponential_simd.inl"/>
+          <FILE id="GjSjQv" name="func_geometric.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_geometric.inl"/>
+          <FILE id="tlxma2" name="func_geometric_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_geometric_simd.inl"/>
+          <FILE id="S4eQLa" name="func_integer.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_integer.inl"/>
+          <FILE id="AoSckA" name="func_integer_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_integer_simd.inl"/>
+          <FILE id="WPcRe2" name="func_matrix.inl" compile="0" resource="0" file="Source/glm/detail/func_matrix.inl"/>
+          <FILE id="XDVAyO" name="func_matrix_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_matrix_simd.inl"/>
+          <FILE id="QdtRUB" name="func_packing.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_packing.inl"/>
+          <FILE id="FEUp7R" name="func_packing_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_packing_simd.inl"/>
+          <FILE id="pijuaE" name="func_trigonometric.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_trigonometric.inl"/>
+          <FILE id="ICyT3v" name="func_trigonometric_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_trigonometric_simd.inl"/>
+          <FILE id="fLQRb0" name="func_vector_relational.inl" compile="0" resource="0"
+                file="Source/glm/detail/func_vector_relational.inl"/>
+          <FILE id="o7ZvfU" name="func_vector_relational_simd.inl" compile="0"
+                resource="0" file="Source/glm/detail/func_vector_relational_simd.inl"/>
+          <FILE id="DyAnu4" name="qualifier.hpp" compile="0" resource="0" file="Source/glm/detail/qualifier.hpp"/>
+          <FILE id="Jc7SC5" name="setup.hpp" compile="0" resource="0" file="Source/glm/detail/setup.hpp"/>
+          <FILE id="uRe7vd" name="type_float.hpp" compile="0" resource="0" file="Source/glm/detail/type_float.hpp"/>
+          <FILE id="qMTlgm" name="type_half.hpp" compile="0" resource="0" file="Source/glm/detail/type_half.hpp"/>
+          <FILE id="n33esB" name="type_half.inl" compile="0" resource="0" file="Source/glm/detail/type_half.inl"/>
+          <FILE id="fPD5Y4" name="type_mat2x2.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat2x2.hpp"/>
+          <FILE id="gn3kmi" name="type_mat2x2.inl" compile="0" resource="0" file="Source/glm/detail/type_mat2x2.inl"/>
+          <FILE id="y1I97u" name="type_mat2x3.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat2x3.hpp"/>
+          <FILE id="YqBxBZ" name="type_mat2x3.inl" compile="0" resource="0" file="Source/glm/detail/type_mat2x3.inl"/>
+          <FILE id="XH85gi" name="type_mat2x4.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat2x4.hpp"/>
+          <FILE id="r3cgIU" name="type_mat2x4.inl" compile="0" resource="0" file="Source/glm/detail/type_mat2x4.inl"/>
+          <FILE id="V8qoQg" name="type_mat3x2.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat3x2.hpp"/>
+          <FILE id="JB4Jd7" name="type_mat3x2.inl" compile="0" resource="0" file="Source/glm/detail/type_mat3x2.inl"/>
+          <FILE id="ARbT7X" name="type_mat3x3.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat3x3.hpp"/>
+          <FILE id="BLnvxD" name="type_mat3x3.inl" compile="0" resource="0" file="Source/glm/detail/type_mat3x3.inl"/>
+          <FILE id="a1Zroz" name="type_mat3x4.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat3x4.hpp"/>
+          <FILE id="UWs4m6" name="type_mat3x4.inl" compile="0" resource="0" file="Source/glm/detail/type_mat3x4.inl"/>
+          <FILE id="cxr6mo" name="type_mat4x2.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat4x2.hpp"/>
+          <FILE id="TKXcW8" name="type_mat4x2.inl" compile="0" resource="0" file="Source/glm/detail/type_mat4x2.inl"/>
+          <FILE id="AB6Ig4" name="type_mat4x3.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat4x3.hpp"/>
+          <FILE id="tx8Hfq" name="type_mat4x3.inl" compile="0" resource="0" file="Source/glm/detail/type_mat4x3.inl"/>
+          <FILE id="ixtujW" name="type_mat4x4.hpp" compile="0" resource="0" file="Source/glm/detail/type_mat4x4.hpp"/>
+          <FILE id="zJK7bB" name="type_mat4x4.inl" compile="0" resource="0" file="Source/glm/detail/type_mat4x4.inl"/>
+          <FILE id="HTtDtu" name="type_mat4x4_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/type_mat4x4_simd.inl"/>
+          <FILE id="sKzoDQ" name="type_quat.hpp" compile="0" resource="0" file="Source/glm/detail/type_quat.hpp"/>
+          <FILE id="IsOJ26" name="type_quat.inl" compile="0" resource="0" file="Source/glm/detail/type_quat.inl"/>
+          <FILE id="Aqg27C" name="type_quat_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/type_quat_simd.inl"/>
+          <FILE id="VhcUNK" name="type_vec1.hpp" compile="0" resource="0" file="Source/glm/detail/type_vec1.hpp"/>
+          <FILE id="eAwee5" name="type_vec1.inl" compile="0" resource="0" file="Source/glm/detail/type_vec1.inl"/>
+          <FILE id="JonMN0" name="type_vec2.hpp" compile="0" resource="0" file="Source/glm/detail/type_vec2.hpp"/>
+          <FILE id="y68GSm" name="type_vec2.inl" compile="0" resource="0" file="Source/glm/detail/type_vec2.inl"/>
+          <FILE id="bdiNcB" name="type_vec3.hpp" compile="0" resource="0" file="Source/glm/detail/type_vec3.hpp"/>
+          <FILE id="XriKyK" name="type_vec3.inl" compile="0" resource="0" file="Source/glm/detail/type_vec3.inl"/>
+          <FILE id="nvevvd" name="type_vec4.hpp" compile="0" resource="0" file="Source/glm/detail/type_vec4.hpp"/>
+          <FILE id="NlC0oi" name="type_vec4.inl" compile="0" resource="0" file="Source/glm/detail/type_vec4.inl"/>
+          <FILE id="pyCrng" name="type_vec4_simd.inl" compile="0" resource="0"
+                file="Source/glm/detail/type_vec4_simd.inl"/>
+        </GROUP>
+        <GROUP id="{81BD6364-1BA0-4457-77F3-E7EEE3B564E9}" name="ext">
+          <FILE id="zkLgLM" name="matrix_clip_space.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_clip_space.hpp"/>
+          <FILE id="NEsgfB" name="matrix_clip_space.inl" compile="0" resource="0"
+                file="Source/glm/ext/matrix_clip_space.inl"/>
+          <FILE id="f0iieD" name="matrix_common.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_common.hpp"/>
+          <FILE id="AEEXDA" name="matrix_common.inl" compile="0" resource="0"
+                file="Source/glm/ext/matrix_common.inl"/>
+          <FILE id="w14YMe" name="matrix_double2x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double2x2.hpp"/>
+          <FILE id="kJSg9z" name="matrix_double2x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double2x2_precision.hpp"/>
+          <FILE id="wJvGcv" name="matrix_double2x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double2x3.hpp"/>
+          <FILE id="AYmNng" name="matrix_double2x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double2x3_precision.hpp"/>
+          <FILE id="impIgN" name="matrix_double2x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double2x4.hpp"/>
+          <FILE id="rF6pHP" name="matrix_double2x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double2x4_precision.hpp"/>
+          <FILE id="PGMQ9w" name="matrix_double3x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double3x2.hpp"/>
+          <FILE id="QVrukl" name="matrix_double3x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double3x2_precision.hpp"/>
+          <FILE id="hmAGXL" name="matrix_double3x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double3x3.hpp"/>
+          <FILE id="IAKWyc" name="matrix_double3x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double3x3_precision.hpp"/>
+          <FILE id="fBPXmM" name="matrix_double3x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double3x4.hpp"/>
+          <FILE id="t9AEv9" name="matrix_double3x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double3x4_precision.hpp"/>
+          <FILE id="ufzVx9" name="matrix_double4x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double4x2.hpp"/>
+          <FILE id="H2gAjS" name="matrix_double4x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double4x2_precision.hpp"/>
+          <FILE id="U74ZSi" name="matrix_double4x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double4x3.hpp"/>
+          <FILE id="PhaskC" name="matrix_double4x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double4x3_precision.hpp"/>
+          <FILE id="oHjgIs" name="matrix_double4x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_double4x4.hpp"/>
+          <FILE id="ORY5VL" name="matrix_double4x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_double4x4_precision.hpp"/>
+          <FILE id="qYkwaU" name="matrix_float2x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float2x2.hpp"/>
+          <FILE id="PaLitK" name="matrix_float2x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float2x2_precision.hpp"/>
+          <FILE id="foMj87" name="matrix_float2x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float2x3.hpp"/>
+          <FILE id="cFijnC" name="matrix_float2x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float2x3_precision.hpp"/>
+          <FILE id="kJYIgd" name="matrix_float2x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float2x4.hpp"/>
+          <FILE id="YbFRF1" name="matrix_float2x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float2x4_precision.hpp"/>
+          <FILE id="iPEEm6" name="matrix_float3x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float3x2.hpp"/>
+          <FILE id="lBlAVf" name="matrix_float3x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float3x2_precision.hpp"/>
+          <FILE id="Uyy5Vu" name="matrix_float3x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float3x3.hpp"/>
+          <FILE id="Y0Tnbq" name="matrix_float3x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float3x3_precision.hpp"/>
+          <FILE id="tiiT0T" name="matrix_float3x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float3x4.hpp"/>
+          <FILE id="WT2W3b" name="matrix_float3x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float3x4_precision.hpp"/>
+          <FILE id="SZ3C6N" name="matrix_float4x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float4x2.hpp"/>
+          <FILE id="EfzGZc" name="matrix_float4x2_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float4x2_precision.hpp"/>
+          <FILE id="dmAm0O" name="matrix_float4x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float4x3.hpp"/>
+          <FILE id="pU0ZIi" name="matrix_float4x3_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float4x3_precision.hpp"/>
+          <FILE id="UsyAP5" name="matrix_float4x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_float4x4.hpp"/>
+          <FILE id="hSqZl3" name="matrix_float4x4_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/matrix_float4x4_precision.hpp"/>
+          <FILE id="amurgk" name="matrix_int2x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x2.hpp"/>
+          <FILE id="uUKkSD" name="matrix_int2x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x2_sized.hpp"/>
+          <FILE id="mktc8r" name="matrix_int2x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x3.hpp"/>
+          <FILE id="QX6e2W" name="matrix_int2x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x3_sized.hpp"/>
+          <FILE id="HMRiZc" name="matrix_int2x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x4.hpp"/>
+          <FILE id="i4CXgn" name="matrix_int2x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int2x4_sized.hpp"/>
+          <FILE id="ai6FOn" name="matrix_int3x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x2.hpp"/>
+          <FILE id="nhusMj" name="matrix_int3x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x2_sized.hpp"/>
+          <FILE id="BxWsE1" name="matrix_int3x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x3.hpp"/>
+          <FILE id="t8I06e" name="matrix_int3x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x3_sized.hpp"/>
+          <FILE id="wnxMuR" name="matrix_int3x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x4.hpp"/>
+          <FILE id="ZsSi3s" name="matrix_int3x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int3x4_sized.hpp"/>
+          <FILE id="fzirrB" name="matrix_int4x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x2.hpp"/>
+          <FILE id="DbXGHD" name="matrix_int4x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x2_sized.hpp"/>
+          <FILE id="vvfRCX" name="matrix_int4x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x3.hpp"/>
+          <FILE id="dyoWzg" name="matrix_int4x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x3_sized.hpp"/>
+          <FILE id="hdWyeK" name="matrix_int4x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x4.hpp"/>
+          <FILE id="gRLVGW" name="matrix_int4x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_int4x4_sized.hpp"/>
+          <FILE id="oyV00D" name="matrix_projection.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_projection.hpp"/>
+          <FILE id="cXUkJU" name="matrix_projection.inl" compile="0" resource="0"
+                file="Source/glm/ext/matrix_projection.inl"/>
+          <FILE id="BKZ6g1" name="matrix_relational.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_relational.hpp"/>
+          <FILE id="zhkw15" name="matrix_relational.inl" compile="0" resource="0"
+                file="Source/glm/ext/matrix_relational.inl"/>
+          <FILE id="oqiBah" name="matrix_transform.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_transform.hpp"/>
+          <FILE id="Y4vukz" name="matrix_transform.inl" compile="0" resource="0"
+                file="Source/glm/ext/matrix_transform.inl"/>
+          <FILE id="f2rd1y" name="matrix_uint2x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x2.hpp"/>
+          <FILE id="MES0IB" name="matrix_uint2x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x2_sized.hpp"/>
+          <FILE id="RDUiSK" name="matrix_uint2x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x3.hpp"/>
+          <FILE id="eyuTEq" name="matrix_uint2x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x3_sized.hpp"/>
+          <FILE id="HmYrKz" name="matrix_uint2x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x4.hpp"/>
+          <FILE id="gZI0jc" name="matrix_uint2x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint2x4_sized.hpp"/>
+          <FILE id="NCsBDH" name="matrix_uint3x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x2.hpp"/>
+          <FILE id="kzDAih" name="matrix_uint3x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x2_sized.hpp"/>
+          <FILE id="LDgfLj" name="matrix_uint3x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x3.hpp"/>
+          <FILE id="C61WYr" name="matrix_uint3x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x3_sized.hpp"/>
+          <FILE id="HgZcyB" name="matrix_uint3x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x4.hpp"/>
+          <FILE id="HnuAwf" name="matrix_uint3x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint3x4_sized.hpp"/>
+          <FILE id="xfIdyo" name="matrix_uint4x2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x2.hpp"/>
+          <FILE id="Rixd00" name="matrix_uint4x2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x2_sized.hpp"/>
+          <FILE id="stq3jJ" name="matrix_uint4x3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x3.hpp"/>
+          <FILE id="umtVfJ" name="matrix_uint4x3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x3_sized.hpp"/>
+          <FILE id="aIfSug" name="matrix_uint4x4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x4.hpp"/>
+          <FILE id="QbIfj2" name="matrix_uint4x4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/matrix_uint4x4_sized.hpp"/>
+          <FILE id="SsiEE0" name="quaternion_common.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_common.hpp"/>
+          <FILE id="HUddYX" name="quaternion_common.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_common.inl"/>
+          <FILE id="cGKeV8" name="quaternion_common_simd.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_common_simd.inl"/>
+          <FILE id="dg7VZd" name="quaternion_double.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_double.hpp"/>
+          <FILE id="Qe29ic" name="quaternion_double_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/quaternion_double_precision.hpp"/>
+          <FILE id="AuHu93" name="quaternion_exponential.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_exponential.hpp"/>
+          <FILE id="fdf2c3" name="quaternion_exponential.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_exponential.inl"/>
+          <FILE id="M4zgz7" name="quaternion_float.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_float.hpp"/>
+          <FILE id="PQOmMm" name="quaternion_float_precision.hpp" compile="0"
+                resource="0" file="Source/glm/ext/quaternion_float_precision.hpp"/>
+          <FILE id="G9F3uN" name="quaternion_geometric.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_geometric.hpp"/>
+          <FILE id="U204mf" name="quaternion_geometric.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_geometric.inl"/>
+          <FILE id="w3vvep" name="quaternion_relational.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_relational.hpp"/>
+          <FILE id="CGpRL7" name="quaternion_relational.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_relational.inl"/>
+          <FILE id="yIFANO" name="quaternion_transform.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_transform.hpp"/>
+          <FILE id="o7LY6k" name="quaternion_transform.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_transform.inl"/>
+          <FILE id="o8hHKl" name="quaternion_trigonometric.hpp" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_trigonometric.hpp"/>
+          <FILE id="BNYknL" name="quaternion_trigonometric.inl" compile="0" resource="0"
+                file="Source/glm/ext/quaternion_trigonometric.inl"/>
+          <FILE id="SnNKRb" name="scalar_common.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_common.hpp"/>
+          <FILE id="G9RAwK" name="scalar_common.inl" compile="0" resource="0"
+                file="Source/glm/ext/scalar_common.inl"/>
+          <FILE id="CyjovD" name="scalar_constants.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_constants.hpp"/>
+          <FILE id="RWxbJm" name="scalar_constants.inl" compile="0" resource="0"
+                file="Source/glm/ext/scalar_constants.inl"/>
+          <FILE id="Rpf32B" name="scalar_int_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_int_sized.hpp"/>
+          <FILE id="bmj4zX" name="scalar_integer.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_integer.hpp"/>
+          <FILE id="L5sMGH" name="scalar_integer.inl" compile="0" resource="0"
+                file="Source/glm/ext/scalar_integer.inl"/>
+          <FILE id="m34uLm" name="scalar_packing.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_packing.hpp"/>
+          <FILE id="oRPZnp" name="scalar_packing.inl" compile="0" resource="0"
+                file="Source/glm/ext/scalar_packing.inl"/>
+          <FILE id="lTOl1G" name="scalar_relational.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_relational.hpp"/>
+          <FILE id="ZaTGWa" name="scalar_relational.inl" compile="0" resource="0"
+                file="Source/glm/ext/scalar_relational.inl"/>
+          <FILE id="cH7yru" name="scalar_uint_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/scalar_uint_sized.hpp"/>
+          <FILE id="YZR02c" name="scalar_ulp.hpp" compile="0" resource="0" file="Source/glm/ext/scalar_ulp.hpp"/>
+          <FILE id="FBQG2B" name="scalar_ulp.inl" compile="0" resource="0" file="Source/glm/ext/scalar_ulp.inl"/>
+          <FILE id="Yu29Q0" name="vector_bool1.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool1.hpp"/>
+          <FILE id="wTmY5L" name="vector_bool1_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool1_precision.hpp"/>
+          <FILE id="GcHZx7" name="vector_bool2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool2.hpp"/>
+          <FILE id="ATpgz3" name="vector_bool2_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool2_precision.hpp"/>
+          <FILE id="i8PIPE" name="vector_bool3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool3.hpp"/>
+          <FILE id="LgPP3m" name="vector_bool3_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool3_precision.hpp"/>
+          <FILE id="lVQe0C" name="vector_bool4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool4.hpp"/>
+          <FILE id="BksjSz" name="vector_bool4_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_bool4_precision.hpp"/>
+          <FILE id="MM48yb" name="vector_common.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_common.hpp"/>
+          <FILE id="nVXRHI" name="vector_common.inl" compile="0" resource="0"
+                file="Source/glm/ext/vector_common.inl"/>
+          <FILE id="RoTxXL" name="vector_double1.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double1.hpp"/>
+          <FILE id="ae7EOJ" name="vector_double1_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double1_precision.hpp"/>
+          <FILE id="zpvysI" name="vector_double2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double2.hpp"/>
+          <FILE id="PhMWiz" name="vector_double2_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double2_precision.hpp"/>
+          <FILE id="h2r0Q3" name="vector_double3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double3.hpp"/>
+          <FILE id="ePYibl" name="vector_double3_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double3_precision.hpp"/>
+          <FILE id="p3Xkio" name="vector_double4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double4.hpp"/>
+          <FILE id="ZokXSt" name="vector_double4_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_double4_precision.hpp"/>
+          <FILE id="qRf292" name="vector_float1.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float1.hpp"/>
+          <FILE id="Qni0cf" name="vector_float1_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float1_precision.hpp"/>
+          <FILE id="ZDZY3h" name="vector_float2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float2.hpp"/>
+          <FILE id="qPcstt" name="vector_float2_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float2_precision.hpp"/>
+          <FILE id="pCMjWe" name="vector_float3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float3.hpp"/>
+          <FILE id="Ikj5Gc" name="vector_float3_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float3_precision.hpp"/>
+          <FILE id="ekuSfg" name="vector_float4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float4.hpp"/>
+          <FILE id="R94IBd" name="vector_float4_precision.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_float4_precision.hpp"/>
+          <FILE id="rQhcQb" name="vector_int1.hpp" compile="0" resource="0" file="Source/glm/ext/vector_int1.hpp"/>
+          <FILE id="uZwT0P" name="vector_int1_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_int1_sized.hpp"/>
+          <FILE id="oRDUUk" name="vector_int2.hpp" compile="0" resource="0" file="Source/glm/ext/vector_int2.hpp"/>
+          <FILE id="bxlrW9" name="vector_int2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_int2_sized.hpp"/>
+          <FILE id="lWKJUA" name="vector_int3.hpp" compile="0" resource="0" file="Source/glm/ext/vector_int3.hpp"/>
+          <FILE id="WdvxOF" name="vector_int3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_int3_sized.hpp"/>
+          <FILE id="S3QiPI" name="vector_int4.hpp" compile="0" resource="0" file="Source/glm/ext/vector_int4.hpp"/>
+          <FILE id="wtx2VO" name="vector_int4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_int4_sized.hpp"/>
+          <FILE id="l1HrOL" name="vector_integer.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_integer.hpp"/>
+          <FILE id="dgDmsE" name="vector_integer.inl" compile="0" resource="0"
+                file="Source/glm/ext/vector_integer.inl"/>
+          <FILE id="i8ae0v" name="vector_packing.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_packing.hpp"/>
+          <FILE id="htJkRU" name="vector_packing.inl" compile="0" resource="0"
+                file="Source/glm/ext/vector_packing.inl"/>
+          <FILE id="vjXgJA" name="vector_relational.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_relational.hpp"/>
+          <FILE id="HG9WYn" name="vector_relational.inl" compile="0" resource="0"
+                file="Source/glm/ext/vector_relational.inl"/>
+          <FILE id="CyBX9Y" name="vector_uint1.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint1.hpp"/>
+          <FILE id="iOl4fk" name="vector_uint1_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint1_sized.hpp"/>
+          <FILE id="feGoZ4" name="vector_uint2.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint2.hpp"/>
+          <FILE id="kfZ4UK" name="vector_uint2_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint2_sized.hpp"/>
+          <FILE id="pdV9qP" name="vector_uint3.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint3.hpp"/>
+          <FILE id="EBcm6b" name="vector_uint3_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint3_sized.hpp"/>
+          <FILE id="LH6KeB" name="vector_uint4.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint4.hpp"/>
+          <FILE id="dQSTlX" name="vector_uint4_sized.hpp" compile="0" resource="0"
+                file="Source/glm/ext/vector_uint4_sized.hpp"/>
+          <FILE id="TmQIFc" name="vector_ulp.hpp" compile="0" resource="0" file="Source/glm/ext/vector_ulp.hpp"/>
+          <FILE id="bbJotE" name="vector_ulp.inl" compile="0" resource="0" file="Source/glm/ext/vector_ulp.inl"/>
+        </GROUP>
+        <GROUP id="{BAF6DE13-A19F-EDED-EDA1-D1751D2508A6}" name="gtc">
+          <FILE id="guXOyt" name="bitfield.hpp" compile="0" resource="0" file="Source/glm/gtc/bitfield.hpp"/>
+          <FILE id="DpY3oh" name="bitfield.inl" compile="0" resource="0" file="Source/glm/gtc/bitfield.inl"/>
+          <FILE id="P0tQxv" name="color_space.hpp" compile="0" resource="0" file="Source/glm/gtc/color_space.hpp"/>
+          <FILE id="bM1fGw" name="color_space.inl" compile="0" resource="0" file="Source/glm/gtc/color_space.inl"/>
+          <FILE id="WRKKq4" name="constants.hpp" compile="0" resource="0" file="Source/glm/gtc/constants.hpp"/>
+          <FILE id="YM5ZQm" name="constants.inl" compile="0" resource="0" file="Source/glm/gtc/constants.inl"/>
+          <FILE id="EYHyaM" name="epsilon.hpp" compile="0" resource="0" file="Source/glm/gtc/epsilon.hpp"/>
+          <FILE id="kz8vqw" name="epsilon.inl" compile="0" resource="0" file="Source/glm/gtc/epsilon.inl"/>
+          <FILE id="wDIk8D" name="integer.hpp" compile="0" resource="0" file="Source/glm/gtc/integer.hpp"/>
+          <FILE id="Zyqphd" name="integer.inl" compile="0" resource="0" file="Source/glm/gtc/integer.inl"/>
+          <FILE id="dn0sBl" name="matrix_access.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_access.hpp"/>
+          <FILE id="TeEf3M" name="matrix_access.inl" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_access.inl"/>
+          <FILE id="VFwKHU" name="matrix_integer.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_integer.hpp"/>
+          <FILE id="N5158c" name="matrix_inverse.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_inverse.hpp"/>
+          <FILE id="EsG7cE" name="matrix_inverse.inl" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_inverse.inl"/>
+          <FILE id="iOEoW0" name="matrix_transform.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_transform.hpp"/>
+          <FILE id="gkZRG2" name="matrix_transform.inl" compile="0" resource="0"
+                file="Source/glm/gtc/matrix_transform.inl"/>
+          <FILE id="zIcwEO" name="noise.hpp" compile="0" resource="0" file="Source/glm/gtc/noise.hpp"/>
+          <FILE id="OMpFq9" name="noise.inl" compile="0" resource="0" file="Source/glm/gtc/noise.inl"/>
+          <FILE id="QGr9xb" name="packing.hpp" compile="0" resource="0" file="Source/glm/gtc/packing.hpp"/>
+          <FILE id="XVOb73" name="packing.inl" compile="0" resource="0" file="Source/glm/gtc/packing.inl"/>
+          <FILE id="sXOiNy" name="quaternion.hpp" compile="0" resource="0" file="Source/glm/gtc/quaternion.hpp"/>
+          <FILE id="Nj05sq" name="quaternion.inl" compile="0" resource="0" file="Source/glm/gtc/quaternion.inl"/>
+          <FILE id="KFpIoe" name="quaternion_simd.inl" compile="0" resource="0"
+                file="Source/glm/gtc/quaternion_simd.inl"/>
+          <FILE id="qjM47Y" name="random.hpp" compile="0" resource="0" file="Source/glm/gtc/random.hpp"/>
+          <FILE id="oFOO5W" name="random.inl" compile="0" resource="0" file="Source/glm/gtc/random.inl"/>
+          <FILE id="AyYa8h" name="reciprocal.hpp" compile="0" resource="0" file="Source/glm/gtc/reciprocal.hpp"/>
+          <FILE id="yBsQ4v" name="reciprocal.inl" compile="0" resource="0" file="Source/glm/gtc/reciprocal.inl"/>
+          <FILE id="qVyIGU" name="round.hpp" compile="0" resource="0" file="Source/glm/gtc/round.hpp"/>
+          <FILE id="NhVtCL" name="round.inl" compile="0" resource="0" file="Source/glm/gtc/round.inl"/>
+          <FILE id="B2a2qb" name="type_aligned.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/type_aligned.hpp"/>
+          <FILE id="ZDBYCz" name="type_precision.hpp" compile="0" resource="0"
+                file="Source/glm/gtc/type_precision.hpp"/>
+          <FILE id="hCcgmQ" name="type_precision.inl" compile="0" resource="0"
+                file="Source/glm/gtc/type_precision.inl"/>
+          <FILE id="h0JGIY" name="type_ptr.hpp" compile="0" resource="0" file="Source/glm/gtc/type_ptr.hpp"/>
+          <FILE id="VyfLvY" name="type_ptr.inl" compile="0" resource="0" file="Source/glm/gtc/type_ptr.inl"/>
+          <FILE id="N9K17D" name="ulp.hpp" compile="0" resource="0" file="Source/glm/gtc/ulp.hpp"/>
+          <FILE id="e70xEC" name="ulp.inl" compile="0" resource="0" file="Source/glm/gtc/ulp.inl"/>
+          <FILE id="BhBE9F" name="vec1.hpp" compile="0" resource="0" file="Source/glm/gtc/vec1.hpp"/>
+        </GROUP>
+        <GROUP id="{1F706908-5691-E6C3-DBDF-ACB23AC99403}" name="gtx">
+          <FILE id="lgd59h" name="associated_min_max.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/associated_min_max.hpp"/>
+          <FILE id="ASLXSy" name="associated_min_max.inl" compile="0" resource="0"
+                file="Source/glm/gtx/associated_min_max.inl"/>
+          <FILE id="WoK4GN" name="bit.hpp" compile="0" resource="0" file="Source/glm/gtx/bit.hpp"/>
+          <FILE id="PCdknw" name="bit.inl" compile="0" resource="0" file="Source/glm/gtx/bit.inl"/>
+          <FILE id="aEe2Xf" name="closest_point.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/closest_point.hpp"/>
+          <FILE id="aGtPBW" name="closest_point.inl" compile="0" resource="0"
+                file="Source/glm/gtx/closest_point.inl"/>
+          <FILE id="znLfd0" name="color_encoding.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/color_encoding.hpp"/>
+          <FILE id="zC6vUt" name="color_encoding.inl" compile="0" resource="0"
+                file="Source/glm/gtx/color_encoding.inl"/>
+          <FILE id="sT0E5m" name="color_space.hpp" compile="0" resource="0" file="Source/glm/gtx/color_space.hpp"/>
+          <FILE id="AN9iQp" name="color_space.inl" compile="0" resource="0" file="Source/glm/gtx/color_space.inl"/>
+          <FILE id="KYDRjE" name="color_space_YCoCg.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/color_space_YCoCg.hpp"/>
+          <FILE id="Gqr8KX" name="color_space_YCoCg.inl" compile="0" resource="0"
+                file="Source/glm/gtx/color_space_YCoCg.inl"/>
+          <FILE id="DJh3c8" name="common.hpp" compile="0" resource="0" file="Source/glm/gtx/common.hpp"/>
+          <FILE id="irong8" name="common.inl" compile="0" resource="0" file="Source/glm/gtx/common.inl"/>
+          <FILE id="z7t8nd" name="compatibility.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/compatibility.hpp"/>
+          <FILE id="UDU67R" name="compatibility.inl" compile="0" resource="0"
+                file="Source/glm/gtx/compatibility.inl"/>
+          <FILE id="Lk4XaO" name="component_wise.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/component_wise.hpp"/>
+          <FILE id="wfqpxH" name="component_wise.inl" compile="0" resource="0"
+                file="Source/glm/gtx/component_wise.inl"/>
+          <FILE id="neaT5z" name="dual_quaternion.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/dual_quaternion.hpp"/>
+          <FILE id="KjpvgX" name="dual_quaternion.inl" compile="0" resource="0"
+                file="Source/glm/gtx/dual_quaternion.inl"/>
+          <FILE id="xg60Ji" name="easing.hpp" compile="0" resource="0" file="Source/glm/gtx/easing.hpp"/>
+          <FILE id="Rgn2Nr" name="easing.inl" compile="0" resource="0" file="Source/glm/gtx/easing.inl"/>
+          <FILE id="W663fd" name="euler_angles.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/euler_angles.hpp"/>
+          <FILE id="Y4Lw0I" name="euler_angles.inl" compile="0" resource="0"
+                file="Source/glm/gtx/euler_angles.inl"/>
+          <FILE id="TBB2xL" name="extend.hpp" compile="0" resource="0" file="Source/glm/gtx/extend.hpp"/>
+          <FILE id="cONgeb" name="extend.inl" compile="0" resource="0" file="Source/glm/gtx/extend.inl"/>
+          <FILE id="wpoTiI" name="extended_min_max.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/extended_min_max.hpp"/>
+          <FILE id="qOcM4L" name="extended_min_max.inl" compile="0" resource="0"
+                file="Source/glm/gtx/extended_min_max.inl"/>
+          <FILE id="VrbO64" name="exterior_product.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/exterior_product.hpp"/>
+          <FILE id="lV7CHv" name="exterior_product.inl" compile="0" resource="0"
+                file="Source/glm/gtx/exterior_product.inl"/>
+          <FILE id="ey5ybe" name="fast_exponential.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/fast_exponential.hpp"/>
+          <FILE id="BCl8uG" name="fast_exponential.inl" compile="0" resource="0"
+                file="Source/glm/gtx/fast_exponential.inl"/>
+          <FILE id="AzB0Gw" name="fast_square_root.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/fast_square_root.hpp"/>
+          <FILE id="zreEwg" name="fast_square_root.inl" compile="0" resource="0"
+                file="Source/glm/gtx/fast_square_root.inl"/>
+          <FILE id="JQKYWO" name="fast_trigonometry.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/fast_trigonometry.hpp"/>
+          <FILE id="vjVFw6" name="fast_trigonometry.inl" compile="0" resource="0"
+                file="Source/glm/gtx/fast_trigonometry.inl"/>
+          <FILE id="ktHNoB" name="float_notmalize.inl" compile="0" resource="0"
+                file="Source/glm/gtx/float_notmalize.inl"/>
+          <FILE id="HefWT6" name="functions.hpp" compile="0" resource="0" file="Source/glm/gtx/functions.hpp"/>
+          <FILE id="qFFIyu" name="functions.inl" compile="0" resource="0" file="Source/glm/gtx/functions.inl"/>
+          <FILE id="ywFQD2" name="gradient_paint.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/gradient_paint.hpp"/>
+          <FILE id="PmxGVE" name="gradient_paint.inl" compile="0" resource="0"
+                file="Source/glm/gtx/gradient_paint.inl"/>
+          <FILE id="wBVPcs" name="handed_coordinate_space.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/handed_coordinate_space.hpp"/>
+          <FILE id="XLMxgC" name="handed_coordinate_space.inl" compile="0" resource="0"
+                file="Source/glm/gtx/handed_coordinate_space.inl"/>
+          <FILE id="zCH4V7" name="hash.hpp" compile="0" resource="0" file="Source/glm/gtx/hash.hpp"/>
+          <FILE id="XV7AzI" name="hash.inl" compile="0" resource="0" file="Source/glm/gtx/hash.inl"/>
+          <FILE id="lGaJa3" name="integer.hpp" compile="0" resource="0" file="Source/glm/gtx/integer.hpp"/>
+          <FILE id="rGf4is" name="integer.inl" compile="0" resource="0" file="Source/glm/gtx/integer.inl"/>
+          <FILE id="A5vMk5" name="intersect.hpp" compile="0" resource="0" file="Source/glm/gtx/intersect.hpp"/>
+          <FILE id="LgtBid" name="intersect.inl" compile="0" resource="0" file="Source/glm/gtx/intersect.inl"/>
+          <FILE id="Z70uW7" name="io.hpp" compile="0" resource="0" file="Source/glm/gtx/io.hpp"/>
+          <FILE id="InKZ0K" name="io.inl" compile="0" resource="0" file="Source/glm/gtx/io.inl"/>
+          <FILE id="cAdy4g" name="log_base.hpp" compile="0" resource="0" file="Source/glm/gtx/log_base.hpp"/>
+          <FILE id="wSbp4W" name="log_base.inl" compile="0" resource="0" file="Source/glm/gtx/log_base.inl"/>
+          <FILE id="H3JhZU" name="matrix_cross_product.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_cross_product.hpp"/>
+          <FILE id="mdt7Cp" name="matrix_cross_product.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_cross_product.inl"/>
+          <FILE id="mIgm1a" name="matrix_decompose.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_decompose.hpp"/>
+          <FILE id="KOxsjq" name="matrix_decompose.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_decompose.inl"/>
+          <FILE id="pvkl71" name="matrix_factorisation.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_factorisation.hpp"/>
+          <FILE id="gAVi6y" name="matrix_factorisation.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_factorisation.inl"/>
+          <FILE id="qZOPg0" name="matrix_interpolation.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_interpolation.hpp"/>
+          <FILE id="tpQX7e" name="matrix_interpolation.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_interpolation.inl"/>
+          <FILE id="SfoRzB" name="matrix_major_storage.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_major_storage.hpp"/>
+          <FILE id="lIPqIz" name="matrix_major_storage.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_major_storage.inl"/>
+          <FILE id="FqxdVq" name="matrix_operation.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_operation.hpp"/>
+          <FILE id="i8jvxO" name="matrix_operation.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_operation.inl"/>
+          <FILE id="ETLd1R" name="matrix_query.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_query.hpp"/>
+          <FILE id="SQp0IV" name="matrix_query.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_query.inl"/>
+          <FILE id="ca2ZFX" name="matrix_transform_2d.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_transform_2d.hpp"/>
+          <FILE id="l61zF6" name="matrix_transform_2d.inl" compile="0" resource="0"
+                file="Source/glm/gtx/matrix_transform_2d.inl"/>
+          <FILE id="Ya7O1C" name="mixed_product.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/mixed_product.hpp"/>
+          <FILE id="anXWpO" name="mixed_product.inl" compile="0" resource="0"
+                file="Source/glm/gtx/mixed_product.inl"/>
+          <FILE id="CzIVpI" name="norm.hpp" compile="0" resource="0" file="Source/glm/gtx/norm.hpp"/>
+          <FILE id="NELeVr" name="norm.inl" compile="0" resource="0" file="Source/glm/gtx/norm.inl"/>
+          <FILE id="e58IO9" name="normal.hpp" compile="0" resource="0" file="Source/glm/gtx/normal.hpp"/>
+          <FILE id="t0PoI6" name="normal.inl" compile="0" resource="0" file="Source/glm/gtx/normal.inl"/>
+          <FILE id="TwfHPF" name="normalize_dot.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/normalize_dot.hpp"/>
+          <FILE id="ODCOml" name="normalize_dot.inl" compile="0" resource="0"
+                file="Source/glm/gtx/normalize_dot.inl"/>
+          <FILE id="bY1P3T" name="number_precision.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/number_precision.hpp"/>
+          <FILE id="RzmI3K" name="number_precision.inl" compile="0" resource="0"
+                file="Source/glm/gtx/number_precision.inl"/>
+          <FILE id="okeYQg" name="optimum_pow.hpp" compile="0" resource="0" file="Source/glm/gtx/optimum_pow.hpp"/>
+          <FILE id="ImvhvC" name="optimum_pow.inl" compile="0" resource="0" file="Source/glm/gtx/optimum_pow.inl"/>
+          <FILE id="lImALP" name="orthonormalize.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/orthonormalize.hpp"/>
+          <FILE id="faBZNe" name="orthonormalize.inl" compile="0" resource="0"
+                file="Source/glm/gtx/orthonormalize.inl"/>
+          <FILE id="QyKhm9" name="perpendicular.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/perpendicular.hpp"/>
+          <FILE id="ippXNI" name="perpendicular.inl" compile="0" resource="0"
+                file="Source/glm/gtx/perpendicular.inl"/>
+          <FILE id="CdVy98" name="polar_coordinates.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/polar_coordinates.hpp"/>
+          <FILE id="h1vWi5" name="polar_coordinates.inl" compile="0" resource="0"
+                file="Source/glm/gtx/polar_coordinates.inl"/>
+          <FILE id="G8wPqM" name="projection.hpp" compile="0" resource="0" file="Source/glm/gtx/projection.hpp"/>
+          <FILE id="mphAYw" name="projection.inl" compile="0" resource="0" file="Source/glm/gtx/projection.inl"/>
+          <FILE id="Zdet68" name="quaternion.hpp" compile="0" resource="0" file="Source/glm/gtx/quaternion.hpp"/>
+          <FILE id="QK2XOq" name="quaternion.inl" compile="0" resource="0" file="Source/glm/gtx/quaternion.inl"/>
+          <FILE id="uIItak" name="range.hpp" compile="0" resource="0" file="Source/glm/gtx/range.hpp"/>
+          <FILE id="ZFegiU" name="raw_data.hpp" compile="0" resource="0" file="Source/glm/gtx/raw_data.hpp"/>
+          <FILE id="YOGpVz" name="raw_data.inl" compile="0" resource="0" file="Source/glm/gtx/raw_data.inl"/>
+          <FILE id="DFvvT2" name="rotate_normalized_axis.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/rotate_normalized_axis.hpp"/>
+          <FILE id="BaLsT6" name="rotate_normalized_axis.inl" compile="0" resource="0"
+                file="Source/glm/gtx/rotate_normalized_axis.inl"/>
+          <FILE id="rtalNT" name="rotate_vector.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/rotate_vector.hpp"/>
+          <FILE id="ZzVBUi" name="rotate_vector.inl" compile="0" resource="0"
+                file="Source/glm/gtx/rotate_vector.inl"/>
+          <FILE id="Eo4el6" name="scalar_multiplication.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/scalar_multiplication.hpp"/>
+          <FILE id="rNjiRi" name="scalar_relational.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/scalar_relational.hpp"/>
+          <FILE id="kTOE1G" name="scalar_relational.inl" compile="0" resource="0"
+                file="Source/glm/gtx/scalar_relational.inl"/>
+          <FILE id="KZCsLC" name="spline.hpp" compile="0" resource="0" file="Source/glm/gtx/spline.hpp"/>
+          <FILE id="F4TLhg" name="spline.inl" compile="0" resource="0" file="Source/glm/gtx/spline.inl"/>
+          <FILE id="B1ICeW" name="std_based_type.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/std_based_type.hpp"/>
+          <FILE id="AUH8o0" name="std_based_type.inl" compile="0" resource="0"
+                file="Source/glm/gtx/std_based_type.inl"/>
+          <FILE id="FNGrwe" name="string_cast.hpp" compile="0" resource="0" file="Source/glm/gtx/string_cast.hpp"/>
+          <FILE id="vR4e0v" name="string_cast.inl" compile="0" resource="0" file="Source/glm/gtx/string_cast.inl"/>
+          <FILE id="ctB6sT" name="texture.hpp" compile="0" resource="0" file="Source/glm/gtx/texture.hpp"/>
+          <FILE id="Ia3fw1" name="texture.inl" compile="0" resource="0" file="Source/glm/gtx/texture.inl"/>
+          <FILE id="kc2YVI" name="transform.hpp" compile="0" resource="0" file="Source/glm/gtx/transform.hpp"/>
+          <FILE id="Y0Fc0B" name="transform.inl" compile="0" resource="0" file="Source/glm/gtx/transform.inl"/>
+          <FILE id="YCYGQn" name="transform2.hpp" compile="0" resource="0" file="Source/glm/gtx/transform2.hpp"/>
+          <FILE id="yOGvfC" name="transform2.inl" compile="0" resource="0" file="Source/glm/gtx/transform2.inl"/>
+          <FILE id="Qg1juA" name="type_aligned.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/type_aligned.hpp"/>
+          <FILE id="stxFqg" name="type_aligned.inl" compile="0" resource="0"
+                file="Source/glm/gtx/type_aligned.inl"/>
+          <FILE id="SL3Gho" name="type_trait.hpp" compile="0" resource="0" file="Source/glm/gtx/type_trait.hpp"/>
+          <FILE id="DvdSKZ" name="type_trait.inl" compile="0" resource="0" file="Source/glm/gtx/type_trait.inl"/>
+          <FILE id="WqHFLa" name="vec_swizzle.hpp" compile="0" resource="0" file="Source/glm/gtx/vec_swizzle.hpp"/>
+          <FILE id="c1y6q0" name="vector_angle.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/vector_angle.hpp"/>
+          <FILE id="luDK9y" name="vector_angle.inl" compile="0" resource="0"
+                file="Source/glm/gtx/vector_angle.inl"/>
+          <FILE id="tpo4YJ" name="vector_query.hpp" compile="0" resource="0"
+                file="Source/glm/gtx/vector_query.hpp"/>
+          <FILE id="Wz156Z" name="vector_query.inl" compile="0" resource="0"
+                file="Source/glm/gtx/vector_query.inl"/>
+          <FILE id="rRUCbc" name="wrap.hpp" compile="0" resource="0" file="Source/glm/gtx/wrap.hpp"/>
+          <FILE id="fDFEYi" name="wrap.inl" compile="0" resource="0" file="Source/glm/gtx/wrap.inl"/>
+        </GROUP>
+        <GROUP id="{763DD13B-3C60-AE2D-F309-F8995DD8A35E}" name="simd">
+          <FILE id="NAc4S8" name="common.h" compile="0" resource="0" file="Source/glm/simd/common.h"/>
+          <FILE id="yr67C0" name="exponential.h" compile="0" resource="0" file="Source/glm/simd/exponential.h"/>
+          <FILE id="KHyO9W" name="geometric.h" compile="0" resource="0" file="Source/glm/simd/geometric.h"/>
+          <FILE id="huyBQV" name="integer.h" compile="0" resource="0" file="Source/glm/simd/integer.h"/>
+          <FILE id="vy3kJX" name="matrix.h" compile="0" resource="0" file="Source/glm/simd/matrix.h"/>
+          <FILE id="ONZp9R" name="neon.h" compile="0" resource="0" file="Source/glm/simd/neon.h"/>
+          <FILE id="YpaVv6" name="packing.h" compile="0" resource="0" file="Source/glm/simd/packing.h"/>
+          <FILE id="ybtbH7" name="platform.h" compile="0" resource="0" file="Source/glm/simd/platform.h"/>
+          <FILE id="rcIvY0" name="trigonometric.h" compile="0" resource="0" file="Source/glm/simd/trigonometric.h"/>
+          <FILE id="sXzxGO" name="vector_relational.h" compile="0" resource="0"
+                file="Source/glm/simd/vector_relational.h"/>
+        </GROUP>
+        <FILE id="tqocMY" name="CMakeLists.txt" compile="0" resource="0" file="Source/glm/CMakeLists.txt"/>
+        <FILE id="XVrEm0" name="common.hpp" compile="0" resource="0" file="Source/glm/common.hpp"/>
+        <FILE id="xqRFo9" name="exponential.hpp" compile="0" resource="0" file="Source/glm/exponential.hpp"/>
+        <FILE id="X7AWxV" name="ext.hpp" compile="0" resource="0" file="Source/glm/ext.hpp"/>
+        <FILE id="GLpgix" name="fwd.hpp" compile="0" resource="0" file="Source/glm/fwd.hpp"/>
+        <FILE id="LmCBAL" name="geometric.hpp" compile="0" resource="0" file="Source/glm/geometric.hpp"/>
+        <FILE id="XA5Mqe" name="glm.hpp" compile="0" resource="0" file="Source/glm/glm.hpp"/>
+        <FILE id="jDPg8l" name="integer.hpp" compile="0" resource="0" file="Source/glm/integer.hpp"/>
+        <FILE id="FjQGrc" name="mat2x2.hpp" compile="0" resource="0" file="Source/glm/mat2x2.hpp"/>
+        <FILE id="ZwMi8a" name="mat2x3.hpp" compile="0" resource="0" file="Source/glm/mat2x3.hpp"/>
+        <FILE id="RvqwUL" name="mat2x4.hpp" compile="0" resource="0" file="Source/glm/mat2x4.hpp"/>
+        <FILE id="WkDKlg" name="mat3x2.hpp" compile="0" resource="0" file="Source/glm/mat3x2.hpp"/>
+        <FILE id="ao6RgX" name="mat3x3.hpp" compile="0" resource="0" file="Source/glm/mat3x3.hpp"/>
+        <FILE id="CGH8Im" name="mat3x4.hpp" compile="0" resource="0" file="Source/glm/mat3x4.hpp"/>
+        <FILE id="m6P5oo" name="mat4x2.hpp" compile="0" resource="0" file="Source/glm/mat4x2.hpp"/>
+        <FILE id="SncWh4" name="mat4x3.hpp" compile="0" resource="0" file="Source/glm/mat4x3.hpp"/>
+        <FILE id="adlMtL" name="mat4x4.hpp" compile="0" resource="0" file="Source/glm/mat4x4.hpp"/>
+        <FILE id="BzMrB9" name="matrix.hpp" compile="0" resource="0" file="Source/glm/matrix.hpp"/>
+        <FILE id="AbPBfs" name="packing.hpp" compile="0" resource="0" file="Source/glm/packing.hpp"/>
+        <FILE id="Snb2lm" name="trigonometric.hpp" compile="0" resource="0"
+              file="Source/glm/trigonometric.hpp"/>
+        <FILE id="aLU9WT" name="vec2.hpp" compile="0" resource="0" file="Source/glm/vec2.hpp"/>
+        <FILE id="et0QRe" name="vec3.hpp" compile="0" resource="0" file="Source/glm/vec3.hpp"/>
+        <FILE id="KeKDHP" name="vec4.hpp" compile="0" resource="0" file="Source/glm/vec4.hpp"/>
+        <FILE id="noSKRM" name="vector_relational.hpp" compile="0" resource="0"
+              file="Source/glm/vector_relational.hpp"/>
+      </GROUP>
+      <FILE id="iXfJZ1" name="vertex_buffer_layout.h" compile="0" resource="0"
+            file="Source/vertex_buffer_layout.h"/>
+      <FILE id="vRhepi" name="vertex_buffer.cpp" compile="1" resource="0"
+            file="Source/vertex_buffer.cpp"/>
+      <FILE id="ONYBsw" name="vertex_buffer.h" compile="0" resource="0" file="Source/vertex_buffer.h"/>
+      <FILE id="hYdUF8" name="vertex_array.cpp" compile="1" resource="0"
+            file="Source/vertex_array.cpp"/>
+      <FILE id="ZOkg0I" name="vertex_array.h" compile="0" resource="0" file="Source/vertex_array.h"/>
+      <FILE id="ekRIXd" name="index_buffer.cpp" compile="1" resource="0"
+            file="Source/index_buffer.cpp"/>
+      <FILE id="PMGGkG" name="index_buffer.h" compile="0" resource="0" file="Source/index_buffer.h"/>
+      <FILE id="XNshYN" name="gl_utils.h" compile="0" resource="0" file="Source/gl_utils.h"/>
+      <FILE id="U521ML" name="f.shader" compile="0" resource="1" file="Source/f.shader"/>
+      <FILE id="TJJERl" name="v.shader" compile="0" resource="1" file="Source/v.shader"/>
+      <FILE id="i5NUvE" name="StarManager.h" compile="0" resource="0" file="Source/StarManager.h"/>
+      <FILE id="pzPeyj" name="StarManager.cpp" compile="1" resource="0" file="Source/StarManager.cpp"/>
+      <FILE id="te22XF" name="star.h" compile="0" resource="0" file="Source/star.h"/>
+      <FILE id="buOjB6" name="star.cpp" compile="1" resource="0" file="Source/star.cpp"/>
+      <FILE id="pdJjii" name="hip_main.dat" compile="0" resource="1" file="Source/hip_main.dat"/>
+      <FILE id="PJ6Nq1" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="MgCVsc" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="fM0tCa" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="star_sequencer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="star_sequencer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
